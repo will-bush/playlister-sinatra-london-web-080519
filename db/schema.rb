@@ -25,4 +25,8 @@ ActiveRecord::Schema.define(version: 2019_08_29_092946) do
     t.string "artist"
   end
 
+  create_table "artists", force: :cascade do |t|
+    t.string "name"
+  end
+
 end
